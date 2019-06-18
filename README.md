@@ -9,6 +9,7 @@ This readme covers contents of the toolbox, compilation and import instructions.
 
 The toolbox contains 2 folders:
 - `demo`: this contains two Jupyter notebooks demonstrating the steps required to compare two simulation models using the MIC. 
+- `precompiled`: this contains Linux and Windows pre-compiled packages which can be directly used on the relevant platform (details below).
 - `source`: this contains the source cython files and the `__init__.py` file for the package.
 
 ## Compilation instructions 
@@ -42,7 +43,7 @@ Unfortunately, the toolbox has not yet been tested on MacOS, this will be carrie
 
 ## To Use/import the toolbox:
 
-Because the toolbox is still experimental. it is not yet provided as a full distributable package/wheel. This is one of the main objectives going forwards. For the moment, the recommended way to use the tools is simply to include a copy of the `mic` folder any project folder that requires the tools. This can either be the `source/mic` folder (which can be compiled in place prior to use) or a pre-compiled version. Once this is done, simply include the following import statement:
+Because the toolbox is still experimental. it is not yet provided as a full distributable package/wheel. This is one of the main objectives going forwards. For the moment, the recommended way to use the tools is simply to include a copy of the `mic` folder any project folder that requires the tools. This can either be the contents of the `source` folder (which can be compiled in place prior to use by running `setup.py`) or a pre-compiled version `precompiled/linux_py3.6` - `precompiled/windows_py3.6`. Once this is done, simply include the following import statement:
   
 `import mic.toolbox` 
   
