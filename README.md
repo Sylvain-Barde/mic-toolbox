@@ -1,6 +1,10 @@
 # mic-toolbox
 Toolbox for implementation of the Markov information criterion
 
+This readme covers contents of the toolbox, compilation and import instructions. Documentation is provided in all classes and functions, and demonstration files are provided to illustrate how to implement the tools. For further details on the implementation of the CTW/CTM algorithms and the theoretical properties of the MIC, please refer to the following documents:
+- The appendix of ["A practical, accurate, information criterion for nth order markov processes".](https://link.springer.com/article/10.1007/s10614-016-9617-9)
+- Sections 2 and 3 of ["Macroeconomic simulation comparison with a multivariate extension of the Markov Information Criterion".](https://www.kent.ac.uk/economics/documents/research/papers/2019/1908.pdf)
+
 ## Contents
 
 The toolbox contains 2 folders:
