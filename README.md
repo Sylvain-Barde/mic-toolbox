@@ -43,7 +43,7 @@ Unfortunately, the toolbox has not yet been tested on MacOS, this will be carrie
 
 ## To Use/import the toolbox:
 
-Because the toolbox is still experimental. it is not yet provided as a full distributable package/wheel. This is one of the main objectives going forwards. For the moment, the recommended way to use the tools is simply to include a copy of the `mic` folder any project folder that requires the tools. This can either be the contents of the `source` folder (which can be compiled in place prior to use by running `setup.py`) or a pre-compiled version `precompiled/linux_py3.6` - `precompiled/windows_py3.6`. Once this is done, simply include the following import statement:
+Because the toolbox is still experimental, it is not yet provided as a full distributable package/wheel. This is one of the main objectives going forwards. For the moment, the recommended way to use the tools is simply to include a copy of the `mic` folder any project folder that requires the tools. This can either be the contents of the `source` folder (which can be compiled in place prior to use by running `setup.py`) or a pre-compiled version `precompiled/linux_py3.6` - `precompiled/windows_py3.6`. Once this is done, simply include the following import statement:
   
 `import mic.toolbox` 
   
