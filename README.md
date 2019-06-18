@@ -32,7 +32,7 @@ Two options are available from Python 3.5 onwards. Both of these contain the req
 
 Compilation was succesfully tested using Python 3.6 on Windows 10 with the Build Tools for Visual Studio 2017.
 
-## MacOS
+### MacOS
 
 Unfortunately, the toolbox has not yet been tested on MacOS, this will be carried out in future updates.
 
