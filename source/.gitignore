@@ -1,0 +1,14 @@
+# standard Python build files
+build/
+*.pyc
+*.dll
+*.pyd
+*.so
+*.dylib
+__pycache__
+*.whl
+*.egg-info
+*.dist-info
+
+# Ignore Cython-generated C sources
+mic/*.c
