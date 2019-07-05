@@ -37,17 +37,11 @@ To uninstall the toolbox, run:
 
 ## Compilation instructions
 
-In order to use the toolbox from the source code it must first be compiled. This requires Numpy, Cython and a C compiler, and the process is platform-dependent. More details are provided in the [Cython documentation on platform dependent installation](https://cython.readthedocs.io/en/latest/src/quickstart/install.html). To create wheel packages for the release, navigate to the source and run either:
+In order to use the toolbox from the source code it must first be compiled. This requires Numpy, Cython and a C compiler, and the process is platform-dependent. More details are provided in the [Cython documentation on platform dependent installation](https://cython.readthedocs.io/en/latest/src/quickstart/install.html). To create wheel packages for the release, navigate to the source and run:
 
 `$ pip wheel .`
 
-or
-
-`$ python setup.py bdist_wheel`
-
-The first option places the wheel in the source folder, the second in a dedicated `source/dist` subfolder.
-
-In cases where the user is not allowed to install packages, for example on a cluster, it is possible to compile the extensions for local use. Navigate to the source folder and run:
+This places the wheel in the source folder. In cases where the user is not allowed to install packages, for example on a cluster, it is possible to compile the extensions for local use. Navigate to the source folder and run:
 
 `$ python setup.py build_ext`
 
