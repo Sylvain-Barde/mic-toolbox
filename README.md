@@ -15,9 +15,9 @@ The toolbox contains 2 folders:
 
 Thanks to @embray's work on the `setup.py` script, the toolbox is now available as a set of distributable wheels and can be installed using `pip` on the github release. To install the toolbox, run one of the following commands:
 
-`$ pip install https://github.com/Sylvain-Barde/mic-toolbox/releases/download/0.1.0a1/mic_toolbox-0.1.0a1-cp37-cp37m-win_amd64.whl`
-
-`$ pip install https://github.com/embray/mic-toolbox/releases/download/0.1.0a0/mic_toolbox-0.1.0a0-cp37-cp37m-win_amd64.whl`
+`$ pip install https://github.com/Sylvain-Barde/mic-toolbox/releases/download/v0.1.0a1/mic_toolbox-0.1.0a1-cp36-cp36m-linux_x86_64.whl`
+`$ pip install https://github.com/Sylvain-Barde/mic-toolbox/releases/download/v0.1.0a1/mic_toolbox-0.1.0a1-cp36-cp36m-win_amd64.whl`
+`$ pip install https://github.com/Sylvain-Barde/mic-toolbox/releases/download/v0.1.0a1/mic_toolbox-0.1.0a1-cp37-cp37m-win_amd64.whl`
 
 Note, because the toolbox uses cython and needs to be compiled, it is platform and python version dependent, therefore you should use the link corresponding to your installation. Once the toolbox is installed, simply include the following import statement in your code:
 
