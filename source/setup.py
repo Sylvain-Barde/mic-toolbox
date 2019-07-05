@@ -63,10 +63,9 @@ class build_ext(_build_ext):
 
 setup(
   name="mic-toolbox",
-  version="0.1.0a0",
+  version="0.1.0a1",
   packages=find_packages(),
   ext_modules=[makeExtension(name) for name in scandir('mic')],
   cmdclass={'build_ext': build_ext},
   options = {'build_ext': {'inplace': True, 'force': True}}
 )
-
